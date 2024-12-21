@@ -28,8 +28,8 @@ url: "https://pedrobiqua.github.io"
 github:
   username: pedrobiqua # change to your GitHub username
 
-linkedin:
-  username: pedrobiqua # change to your Twitter username
+twitter:
+  username: # pedrobiqua # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -42,6 +42,7 @@ social:
     - https://github.com/pedrobiqua # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
+    - https://www.instagram.com/pedrobiqua.dev
     - https://www.linkedin.com/in/pedrobiqua
 
 # Site Verification Settings
