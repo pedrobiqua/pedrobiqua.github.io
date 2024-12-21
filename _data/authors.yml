@@ -1,0 +1,17 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+pedro:
+  name: Pedro Bianchini de Quadros
+  url: https://github.com/pedrobiqua/
+  url_photo: https://github.com/pedrobiqua.png
+  url_linkedin: https://www.linkedin.com/in/pedrobiqua
+# -------------------------------------
+
+gabriel:
+  name: Gabriel Antonio Gomes de Farias
+  url: https://github.com/pedrobiqua/
+
+sille_bille:
+  name: Dinesh Prasanth Moluguwan Krishnamoorthy
+  twitter: dinesh_MKD
+  url: https://github.com/SilleBille/
