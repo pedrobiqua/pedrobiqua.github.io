@@ -120,10 +120,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: pedrobiqua/pedrobiqua_blog
-    repo_id: "R_kgDONaGelg"
-    category: "Announcements"
-    category_id: "DIC_kwDONaGels4ClOjm"
+    repo: pedrobiqua/pedrobiqua.github.io
+    repo_id: "R_kgDONgdb0Q"
+    category: "General"
+    category_id: "DIC_kwDONgdb0c4ClnsY"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
