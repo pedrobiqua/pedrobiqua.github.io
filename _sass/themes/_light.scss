@@ -44,6 +44,11 @@
   --sidebar-btn-color: #8e8e8e;
   --avatar-border-color: white;
 
+  /* Substituindo o azul claro */
+  --light-blue: #a0c4ff;
+  --sidebar-active-color: var(--light-blue); /* Azul claro para elementos ativos */
+
+
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
   --topbar-text-color: rgb(78, 78, 78);
