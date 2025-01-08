@@ -13,4 +13,4 @@ The goal of the project is to create a reusable and adaptable tool that can be i
 
 <!-- Using card github -->
 <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
-<div class="repo-card" data-repo="pedrobiqua/Search_Engine"></div>
+<div class="repo-card" data-repo="BianchTech/Search_Engine"></div>
