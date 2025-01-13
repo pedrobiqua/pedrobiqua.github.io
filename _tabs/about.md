@@ -12,6 +12,8 @@ In my work, I’ve developed a system for generating random numbers using radioa
 
 If you’re into data, programming, or just curious about how things work, feel free to reach out. I’m always excited to learn, share, and build something cool together!
 
+[Download my CV(Portuguese only)]({{ "/assets/downloads/CV_PEDRO BIANCHINI DE QUADROS.pdf" | relative_url }})
+
 ## Contact
 {: .prompt-info }
 - **Address:** Centro Cívico Neighborhood, Curitiba - Paraná
