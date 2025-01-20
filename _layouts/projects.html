@@ -66,11 +66,11 @@ refactor: true
 
                   <div class="project-status">
                     {% if post.end_date %}
-                      <i class="fas fa-check-circle fa-fw text-muted"></i> <!-- New icon for completed -->
+                      <i class="fas fa-check-circle fa-fw text-muted" ></i> <!-- New icon for completed -->
                       <span class="text-muted">Completed</span>
                     {% else %}
-                      <i class="fas fa-circle-notch fa-spin fa-fw text-success"></i> <!-- Ongoing status -->
-                      <span class="text-success">Ongoing</span>
+                      <i class="fas fa-circle-notch fa-spin fa-fw text-success" style="color: green;"></i> <!-- Ongoing status -->
+                      <span class="text-success" style="color: green;">Ongoing</span>
                     {% endif %}
                   </div>
                 </div>
