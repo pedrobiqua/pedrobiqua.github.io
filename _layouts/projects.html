@@ -5,7 +5,7 @@ refactor: true
 
 {% include lang.html %}
 
-<div class="projects-grid">
+<div id="post-list" class="flex-grow-1 px-xl-1">
   {% assign sort_categories = site.categories | sort %}
 
   {% for category in sort_categories %}
