@@ -26,7 +26,7 @@ If you’re into data, programming, or just curious about how things work, feel 
 
 ## Education
 - **Pontifical Catholic University of Paraná (PUCPR)** <br>
-Bachelor’s Degree in Computer Science — 2020–2024
+Bachelor’s Degree in Computer Science — 2021–2024
 
 - **Federal University of Paraná (UFPR)** <br>
 Master’s Degree in Computer Science (PPGInf) — 2025–present
