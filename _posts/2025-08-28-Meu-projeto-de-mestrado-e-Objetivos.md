@@ -2,12 +2,14 @@
 layout: post
 category: Blog
 author: pedro
-tags: [research, experience]
-title: "Meu projeto de mestrado e Objetivos"
+tags:
+  - research
+  - experience
+title: Meu projeto de mestrado e Objetivos
 math: false
 mermaid: false
-date: Thu Aug 28 2025 18:00:00 GMT-0300 (Horário Padrão de Brasília)
-description: Nesse post, vou documentar o início do mestrado
+date: 'Thu Aug 28 2025 18:00:00 GMT-0300 (Horário Padrão de Brasília)'
+description: 'Nesse post, vou documentar o início do mestrado'
 ---
 
 Primeiro, apesar de quase ninguém ler o meu blog, gostaria de justificar a minha ausência de posts. Comecei a trabalhar na **Nexum IoT**, uma empresa de IoT, onde estou tendo a minha primeira experiência como desenvolvedor júnior.
