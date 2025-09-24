@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 Hi, I’m Pedro! I’m a **Computer Scientist** who loves exploring technology, solving problems, and working with data.
