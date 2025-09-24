@@ -14,9 +14,9 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Pedro Bianchini de Quadros # the main title
+title: pedrobiqua.dev # the main title
 
-tagline: I'm a computer scientist # it will display as the subtitle
+tagline: "Exploring technology, science, and innovation with a touch of experiments and reflections on the world." # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   My personal blog where I share insights on tech, projects, and personal growth.
