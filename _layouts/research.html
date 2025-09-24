@@ -1,0 +1,37 @@
+---
+layout: page
+refactor: true
+---
+
+{% include lang.html %}
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+
+  {% assign articles = site.posts | where_exp:"post","post.categories contains 'Articles'" %}
+
+  {% for post in articles %}
+    <article class="mb-3">
+      <p>
+        {% if post.authors %}
+          <strong>
+            {% for author_id in post.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              {{ author.name }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </strong>.
+        {% endif %}
+
+        “<em><a href="{{ post.url | relative_url }}">{{ post.title }}</a></em>”,
+
+        {% if post.year %}
+          {{ post.year }}.
+        {% endif %}
+      </p>
+    </article>
+  {% endfor %}
+
+</div>
+
+{% if paginator.total_pages > 1 %}
+  {% include post-paginator.html %}
+{% endif %}
