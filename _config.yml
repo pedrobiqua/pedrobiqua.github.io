@@ -14,16 +14,16 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Pedro Bianchini de Quadros # the main title
+title: pedrobiqua.dev # the main title
 
-tagline: I'm a computer scientist # it will display as the subtitle
+tagline: "Exploring technology, science, and innovation with a touch of experiments and reflections on the world." # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   My personal blog where I share insights on tech, projects, and personal growth.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://pedrobiqua.github.io"
+url: "https://pedrobiqua.dev.br"
 
 github:
   username: pedrobiqua # change to your GitHub username
@@ -47,7 +47,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: ccVCz7-ttyuYnMhcgu86K7iSW0qnBCe_nGznfn1GoAs # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
