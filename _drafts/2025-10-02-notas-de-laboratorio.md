@@ -10,7 +10,16 @@ title: Notas de Laboratório
 math: false
 mermaid: false
 date: 2025-10-02T17:56:35.630Z
-description: ""
+description: "Nova categoria de publicação"
 ---
 
-Olá pessoal, tudo bem? Agora que eu já deliniei os próximos passos gostaria de iniciar uma nova linha de postagens, nessas postagens que eu defini como  **Notas de Laboratório** vou falar de assuntos que estou lendo em artigos e livros, como pequenos spoilers da minha futura publicação que talvez possa sair sobre alguns desses assuntos, isso vai servir justamente para o Pedro do futuro ver o quanto ele evoluiu e também para os interessados saber como que foi os estudos e pesquisas realizadas e o meu ponto de vista de modo mais informal.
+Agora que já delineei os próximos passos, gostaria de iniciar uma nova linha de postagens. Nessas postagens, que defini como **Notas de Laboratório**, vou abordar assuntos que estou estudando em artigos e livros, funcionando como pequenos spoilers da minha futura publicação, que talvez venha a ser lançada sobre alguns desses temas. Isso servirá justamente para uma autoanálise e também para que os interessados possam acompanhar como foram realizados os estudos e pesquisas, além de conhecer meu ponto de vista de maneira mais informal.
+
+Acredito que, dessa maneira, eu possa compartilhar de forma mais fácil com toda a sociedade. Espero que gostem desse tipo de publicação.
+
+Keep learning,<br>
+***Pedro* ;)**
+
+
+
+

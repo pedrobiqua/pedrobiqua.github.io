@@ -7,41 +7,49 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
-          "name": "title",
+          "title": "layout",
+          "name": "layout",
           "type": "string"
         },
         {
-          "title": "Description",
-          "name": "description",
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "author",
+          "name": "author",
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "math",
+          "name": "math",
+          "type": "boolean"
+        },
+        {
+          "title": "mermaid",
+          "name": "mermaid",
+          "type": "boolean"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
         }
       ]
     }
@@ -59,5 +67,6 @@
       "path": "[[workspace]]/_posts"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts"
 }
