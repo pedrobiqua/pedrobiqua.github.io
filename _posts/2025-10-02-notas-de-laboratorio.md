@@ -9,7 +9,7 @@ tags:
 title: Notas de Laboratório
 math: false
 mermaid: false
-date: 2025-10-05T01:45:05.016Z
+date: 2025-10-05T01:46:49.687Z
 description: Nova categoria de publicação
 ---
 
