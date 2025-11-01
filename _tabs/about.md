@@ -54,7 +54,7 @@ Master’s Degree in Computer Science (PPGInf) — 2025–present
 - **Ideathon on Integrated Solutions: Soft Skills and Technical Skills** <br>
   PUCPR and ExxonMobil Partnership – 2024
 
-- **PUCPR AI League – 2024 - Present** <br>
+- **PUCPR AI League – 2024 - 2025** <br>
   Competition: **Mining Misconceptions in Mathematic**
 
 ---
@@ -91,6 +91,12 @@ Obsidian plugin I contribute to, along with Haril Song, a Korean developer. This
 > **TG+** – February/2025 - Present  <br>
 Smart public lighting software powered by agent-based AI to optimize control, monitoring, and maintenance of streetlights, enhancing energy efficiency and operational automation.
 
+
+---
+
+## Research
+> **Data Streams** - August/2025 - Present <br>
+Research on real-time processing of continuous data streams, focusing on incremental learning, concept drift, and the evaluation of streaming algorithms using synthetic and real-world datasets.
 
 ---
 
