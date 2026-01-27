@@ -7,7 +7,7 @@ refactor: true
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
 
-  {% assign articles = site.posts | where_exp:"post","post.categories contains 'Articles'" %}
+  {% assign articles = site.articles | where_exp:"post","post.categories contains 'Articles'" %}
 
   {% for post in articles %}
     <article class="mb-3">

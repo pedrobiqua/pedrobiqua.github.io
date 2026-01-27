@@ -89,7 +89,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -172,6 +172,19 @@ collections:
     output: true
     sort_by: order
 
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:slug/
+
+  articles:
+    output: true
+    permalink: /articles/:year/:slug/
+
+  projects:
+    output: true
+    permalink: /projects/:slug/
+
+
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
@@ -193,6 +206,20 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+      toc: false
+
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      toc: false
 
 sass:
   style: compressed

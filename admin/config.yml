@@ -15,6 +15,7 @@ editor:
   preview: false
 
 collections:
+  ## BLOG / NOTAS
   - name: "posts"
     label: "Blog / Notas"
     folder: "_posts"
@@ -24,32 +25,25 @@ collections:
     format: "frontmatter"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-
       - label: "Categorias"
         name: "categories"
         widget: "list"
         default: ["Blog"]
-
       - { label: "Autor", name: "author", widget: "string", default: "pedro" }
-
       - label: "Tags"
         name: "tags"
         widget: "list"
-
       - { label: "Título", name: "title", widget: "string" }
-
       - { label: "Math (LaTeX)", name: "math", widget: "boolean", default: false }
       - { label: "Mermaid", name: "mermaid", widget: "boolean", default: false }
-
       - label: "Data"
         name: "date"
         widget: "datetime"
         format: "iso"
-
       - { label: "Descrição", name: "description", widget: "string" }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 
-    ## ARTIGOS
+  ## ARTIGOS / PESQUISAS
   - name: "articles"
     label: "Artigos / Pesquisas"
     folder: "_articles"
@@ -58,28 +52,25 @@ collections:
     extension: "md"
     format: "frontmatter"
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Título", name: "title", widget: "string" }
-
       - label: "Autores"
         name: "authors"
         widget: "list"
-
       - label: "Categorias"
         name: "categories"
         widget: "list"
         default: ["Articles"]
-
       - label: "Tags"
         name: "tag"
         widget: "list"
-
       - label: "Ano"
         name: "year"
         widget: "number"
         value_type: "int"
         min: 1900
 
-    ## PROJETOS
+  ## PROJETOS
   - name: "projects"
     label: "Projetos"
     folder: "_projects"
@@ -88,27 +79,21 @@ collections:
     extension: "md"
     format: "frontmatter"
     fields:
-      - { label: "Título", name: "title", widget: "string" }
-
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - label: "Categorias"
         name: "categories"
         widget: "list"
         default: ["Projects"]
-
       - label: "Tags"
         name: "tag"
         widget: "list"
-
       - { label: "Autor", name: "author", widget: "string", default: "pedro" }
-
       - label: "Data de início"
         name: "start_date"
         widget: "datetime"
-
       - label: "Data de término"
         name: "end_date"
         widget: "datetime"
         required: false
-
       - { label: "Descrição / Conteúdo", name: "body", widget: "markdown" }
 
