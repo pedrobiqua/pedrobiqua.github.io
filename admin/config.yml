@@ -16,7 +16,7 @@ editor:
 
 collections:
   - name: "posts"
-    label: "Posts"
+    label: "Blog / Notas"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -24,8 +24,91 @@ collections:
     format: "frontmatter"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+
+      - label: "Categorias"
+        name: "categories"
+        widget: "list"
+        default: ["Blog"]
+
+      - { label: "Autor", name: "author", widget: "string", default: "pedro" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Data", name: "date", widget: "datetime" }
-      - { label: "Descrição", name: "description", widget: "string", required: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+      - { label: "Math (LaTeX)", name: "math", widget: "boolean", default: false }
+      - { label: "Mermaid", name: "mermaid", widget: "boolean", default: false }
+
+      - label: "Data"
+        name: "date"
+        widget: "datetime"
+        format: "iso"
+
+      - { label: "Descrição", name: "description", widget: "string" }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+    ## ARTIGOS
+  - name: "articles"
+    label: "Artigos / Pesquisas"
+    folder: "_articles"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+
+      - label: "Autores"
+        name: "authors"
+        widget: "list"
+
+      - label: "Categorias"
+        name: "categories"
+        widget: "list"
+        default: ["Articles"]
+
+      - label: "Tags"
+        name: "tag"
+        widget: "list"
+
+      - label: "Ano"
+        name: "year"
+        widget: "number"
+        value_type: "int"
+        min: 1900
+
+    ## PROJETOS
+  - name: "projects"
+    label: "Projetos"
+    folder: "_projects"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+
+      - label: "Categorias"
+        name: "categories"
+        widget: "list"
+        default: ["Projects"]
+
+      - label: "Tags"
+        name: "tag"
+        widget: "list"
+
+      - { label: "Autor", name: "author", widget: "string", default: "pedro" }
+
+      - label: "Data de início"
+        name: "start_date"
+        widget: "date"
+
+      - label: "Data de término"
+        name: "end_date"
+        widget: "date"
+        required: false
+
+      - { label: "Descrição / Conteúdo", name: "body", widget: "markdown" }
+
