@@ -1,15 +1,15 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
 backend:
   name: github
   repo: pedrobiqua/pedrobiqua.github.io
   branch: main
-  base_url: https://decap-oauth-proxy.netlify.app
-  auth_endpoint: auth
-
-media_folder: "assets/img/uploads"
-public_folder: "/assets/img/uploads"
 
 site_url: https://pedrobiqua.dev.br
 display_url: https://pedrobiqua.dev.br
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
 
 editor:
   preview: false
