@@ -178,7 +178,7 @@ collections:
 
   articles:
     output: true
-    permalink: /articles/:year/:slug/
+    permalink: /research/:year/:slug/
 
   projects:
     output: true
@@ -206,20 +206,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-
-  - scope:
-      path: ""
-      type: articles
-    values:
-      layout: article
-      toc: false
-
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: project
-      toc: false
 
 sass:
   style: compressed
@@ -252,3 +238,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+  collections:
+    - posts
+    - articles
+    - projects
+

@@ -1,7 +1,5 @@
 ---
 title: "Search Engine"
-categories: [Projects]
-tag: ["search engine"]
 author: pedro
 start_date: "2024-07-12"
 end_date:

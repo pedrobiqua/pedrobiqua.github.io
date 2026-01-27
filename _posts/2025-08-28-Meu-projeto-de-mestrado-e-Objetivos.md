@@ -30,7 +30,7 @@ Tudo isso se conecta ao meu **terceiro objetivo**: **contribuir para a sociedade
 
 Com esses objetivos em mente, vejo o mestrado como uma oportunidade perfeita. Estou pesquisando nas áreas de **data science e big data**, com ênfase em **machine learning e deep learning**. Meu foco principal são **classificadores**, especialmente em problemas de **mudança de conceito**. Mesmo com o boom das IAs, acredito que ainda há muito espaço para avanços nessas áreas. Meu professor Alceu costuma comparar a matemática com a IA, dizendo que a matemática é uma senhorinha, enquanto a IA é uma jovem cheia de energia.
 
-Meu tema de pesquisa já tem uma publicação neste blog (veja nesse [post](/articles/2024/2024-11-13-TCC)), onde disponibilizo o artigo. Ele nunca foi publicado formalmente, apenas na biblioteca da minha faculdade, mas gosto de compartilhar mesmo sem ter resultados definitivos sobre a nova metodologia utilizada.
+Meu tema de pesquisa já tem uma publicação neste blog (veja nesse [post]({{ '/research/2024/tcc/' | relative_url }})), onde disponibilizo o artigo. Ele nunca foi publicado formalmente, apenas na biblioteca da minha faculdade, mas gosto de compartilhar mesmo sem ter resultados definitivos sobre a nova metodologia utilizada.
 
 Nos próximos posts, vou detalhar minhas áreas de pesquisa e compartilhar o que estou estudando e descobrindo.
 
