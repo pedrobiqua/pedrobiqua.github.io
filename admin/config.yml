@@ -2,6 +2,8 @@ backend:
   name: github
   repo: pedrobiqua/pedrobiqua.github.io
   branch: main
+  base_url: https://decap-oauth-proxy.netlify.app
+  auth_endpoint: auth
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
