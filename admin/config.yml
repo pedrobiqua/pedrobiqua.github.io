@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: pedrobiqua/pedrobiqua.github.io
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+site_url: https://pedrobiqua.dev.br
+display_url: https://pedrobiqua.dev.br
+
+editor:
+  preview: false
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Descrição", name: "description", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
