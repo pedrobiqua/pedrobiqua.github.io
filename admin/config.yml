@@ -103,11 +103,11 @@ collections:
 
       - label: "Data de início"
         name: "start_date"
-        widget: "date"
+        widget: "datetime"
 
       - label: "Data de término"
         name: "end_date"
-        widget: "date"
+        widget: "datetime"
         required: false
 
       - { label: "Descrição / Conteúdo", name: "body", widget: "markdown" }
