@@ -10,4 +10,4 @@ Este projeto usa aprendizado de máquina e câmeras para melhorar a gestão de v
 
 Durante o meu mestrado, vou contribuir desenvolvendo técnicas para tornar estruturas de dados, como **k-d Trees** e **Hoeffding Trees**, mais eficientes em fluxos de dados dinâmicos, apoiando buscas rápidas e precisas.
 
-_Financiado pelo **CNPq**_
+_Financiado pelo **CNPq** 405511/2022-1 - Gerência Inteligente de Vagas de Estacionamento_
