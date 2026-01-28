@@ -57,13 +57,6 @@ collections:
       - label: "Autores"
         name: "authors"
         widget: "list"
-      - label: "Categorias"
-        name: "categories"
-        widget: "list"
-        default: ["Articles"]
-      - label: "Tags"
-        name: "tag"
-        widget: "list"
       - label: "Ano"
         name: "year"
         widget: "number"
@@ -79,14 +72,8 @@ collections:
     extension: "md"
     format: "frontmatter"
     fields:
+      - { label: "Título", name: "title", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - label: "Categorias"
-        name: "categories"
-        widget: "list"
-        default: ["Projects"]
-      - label: "Tags"
-        name: "tag"
-        widget: "list"
       - { label: "Autor", name: "author", widget: "string", default: "pedro" }
       - label: "Data de início"
         name: "start_date"
