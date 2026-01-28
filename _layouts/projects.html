@@ -7,7 +7,7 @@ refactor: true
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
 
-  {% assign projects = site.projects %}
+  {% assign projects = site.projects | sort: 'date' | reverse %}
 
   {% for post in projects %}
     <article class="card-wrapper card">
@@ -58,7 +58,7 @@ refactor: true
               </div>
 
               <div class="project-status">
-                {% if post.end_date %}
+                {% if post.end_date and post.end_date != "" %}
                   <i class="fas fa-check-circle fa-fw text-muted"></i>
                   <span class="text-muted">Completed</span>
                 {% else %}
