@@ -39,7 +39,6 @@ collections:
       - label: "Data"
         name: "date"
         widget: "datetime"
-        format: "iso"
       - { label: "Descrição", name: "description", widget: "string" }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 
