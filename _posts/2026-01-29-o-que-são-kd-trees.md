@@ -9,7 +9,7 @@ tags:
 title: O que são KD-trees
 math: false
 mermaid: false
-date: i0o
+date: "2026-01-29"
 description: Nesse post vou mostrar a estrutura e mostrar as suas aplicações
 ---
 
