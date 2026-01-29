@@ -15,6 +15,33 @@ editor:
   preview: false
 
 collections:
+  ## Drafts
+  - name: "drafts"
+    label: "Drafts Blog"
+    folder: "_drafts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - label: "Categorias"
+        name: "categories"
+        widget: "list"
+        default: ["Blog"]
+      - { label: "Autor", name: "author", widget: "string", default: "pedro" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Math (LaTeX)", name: "math", widget: "boolean", default: false }
+      - { label: "Mermaid", name: "mermaid", widget: "boolean", default: false }
+      - label: "Data"
+        name: "date"
+        widget: "datetime"
+      - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
   ## BLOG / NOTAS
   - name: "posts"
     label: "Blog / Notas"
