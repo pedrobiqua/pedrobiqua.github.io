@@ -69,7 +69,7 @@ Master’s Degree in Computer Science (PPGInf) — 2025–present
 - Development of APIs for microservices using PHP.
 - Participation in the implementation of the company’s Loan System.
 
-> **Nexum IoT** – February/2025 – Present <br>
+> **Nexum IoT** – February/2025 – November/2025 <br>
 **Position:** IA Developer  <br>
 **Responsibilities:**
 - Design, development, and deployment of machine learning and artificial intelligence models.
@@ -88,7 +88,7 @@ Personal project: a Python library for creating search engines. Includes algorit
 > **O2** – December/2024  <br>
 Obsidian plugin I contribute to, along with Haril Song, a Korean developer. This plugin is used to build and organize my blog.
 
-> **TG+** – February/2025 - Present  <br>
+> **TG+** – February/2025 - November/2025  <br>
 Smart public lighting software powered by agent-based AI to optimize control, monitoring, and maintenance of streetlights, enhancing energy efficiency and operational automation.
 
 

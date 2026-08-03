@@ -3,7 +3,7 @@ title: Gerência Inteligente de Vagas de Estacionamento
 layout: post
 author: pedro
 start_date: 2026-01-28T09:35:00
-end_date: ''
+end_date:
 ---
 
 Este projeto usa aprendizado de máquina e câmeras para melhorar a gestão de vagas de estacionamento em cidades. O sistema pode detectar vagas livres, monitorar trânsito e gerar informações úteis, ajudando motoristas a economizar tempo e combustível, além de abrir espaço para soluções como cobrança automática por tempo de ocupação.
